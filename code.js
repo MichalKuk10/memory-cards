@@ -20,10 +20,11 @@ function handleClick() {
     };
 }
 
+
 var displayCard = function (){
+
     this.classList.toggle("closed");
-    this.classList.toggle("disabled");
-    console.log("ggg");
+   // this.classList.toggle("disabled");
 }
 
 addClassesToCards();
